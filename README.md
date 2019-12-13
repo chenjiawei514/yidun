@@ -12,7 +12,7 @@
 - [chrome_test.py](chrome_test.py)该文件是使用chromedriver进行滑块破解的，比较无脑（实测可以一滑到底），只是用于破解时方便自动化调试的
 - [yidun.py](yidun.py)该文件是通过破解js提交请求进行破解的，是重头戏
 # 注意事项
-- http://c.dun.163yun.com/api/v2/get该地址请求时需要加请求头，否则通过率极低（坑逼问题搞了我一天，太菜了）
+- http://c.dun.163yun.com/api/v2/get 该地址请求时需要加请求头，否则通过率极低（坑逼问题搞了我一天，太菜了）
 # 参考链接
 - [验证码缺口识别和轨迹生成](https://www.jianshu.com/p/f12679a63b8d)
 - [冷月大佬博客](https://lengyue.me/index.php/category/captcha/crack-yidun/)
