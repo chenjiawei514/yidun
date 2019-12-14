@@ -339,5 +339,5 @@ if __name__ == '__main__':
     for file in os.listdir(img_dir):
         os.remove(img_dir + file)
     yidun = yidun_crack()
-    for i in range(20):
+    for i in range(1):
         yidun.run()
