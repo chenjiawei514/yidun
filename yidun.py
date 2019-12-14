@@ -140,7 +140,7 @@ class yidun_crack(object):
             content = self.requests_get(url=url, params=params, headers=hd)
             content = re.findall('\((.*?)\)', content)[0]
             json_data = json.loads(content)
-            if json_data['data']['type'] == 2:
+            if json_data['data']['type'] == self.type:
                 self.token = json_data['data']['token']
                 print('滑块验证码', self.token)
                 self.bg_img_path = self.download_img(json_data['data']['bg'][0])
