@@ -17,7 +17,7 @@ class chrome_test(object):
     def __init__(self):
         self.driver = webdriver.Chrome(options=chrome_options)
         # self.driver.get('https://dun.163.com/trial/jigsaw')
-        self.driver.get('http://localhost:63342/yidun/index.html?_ijt=1v4ljncju1r9naf69h6p4nt0k6')
+        self.driver.get('http://localhost:63342/yidun/slider.html?_ijt=1v4ljncju1r9naf69h6p4nt0k6')
 
     def run(self):
         # 滚动到顶部进行tab页切换
